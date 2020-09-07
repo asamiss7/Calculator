@@ -1,0 +1,100 @@
+body {
+    width: 500px;
+    margin: 3% auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+}
+
+.main {
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.input {
+    border: #A2A4A7 1px solid;
+    border-radius: 2px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+}
+
+.input:hover {
+    border: 1px solid #bbb;
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.operators div {
+    display: inline-block;
+    border: #A2A4A7 1px solid;
+    border-radius: 2px;
+    width: 11%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ddd;
+    margin: 20px 4px 10px 0;
+}
+
+div.equal {
+    width: 100px;
+}
+
+.operators div:hover {
+    border: 1px solid #bbb;
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.operators div:active {
+    font-weight: bold;
+  }
+
+/* .leftpanel {
+    display: inline-block;
+}  */
+
+.numbers div {
+    display: inline-block;
+    border: #A2A4A7 1px solid;
+    border-radius: 2px;
+    width: 26.68%;
+    padding: 12px 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fafafa;
+    margin: 10px 4px 10px 0;
+}
+
+.numbers div:hover {
+    border: 1px solid #bbb;
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.numbers div:active {
+    font-weight: bold;
+}
+
+/* div.equal {
+    display: inline-block;
+    border: #969A97 1px solid;
+    border-radius: 2px;
+    width: 18%;
+    background-color: lightblue;
+    text-align: center;
+    cursor: pointer;
+    padding: 127px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+}
+
+div.equal:hover {
+    border: 1px solid #bbb;
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+div.equal:active {
+    font-weight: bold;
+} */
