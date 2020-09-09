@@ -52,10 +52,6 @@ div.equal {
     font-weight: bold;
   }
 
-/* .leftpanel {
-    display: inline-block;
-}  */
-
 .numbers div {
     display: inline-block;
     border: #A2A4A7 1px solid;
@@ -76,25 +72,3 @@ div.equal {
 .numbers div:active {
     font-weight: bold;
 }
-
-/* div.equal {
-    display: inline-block;
-    border: #969A97 1px solid;
-    border-radius: 2px;
-    width: 18%;
-    background-color: lightblue;
-    text-align: center;
-    cursor: pointer;
-    padding: 127px 10px;
-    margin: 10px 6px 10px 0;
-    vertical-align: top;
-}
-
-div.equal:hover {
-    border: 1px solid #bbb;
-    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-}
-
-div.equal:active {
-    font-weight: bold;
-} */
